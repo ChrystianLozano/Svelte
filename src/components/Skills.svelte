@@ -27,8 +27,8 @@
 <div class="skills">
 <h3>Habilidades</h3>
 <ul>
-{#each skills as {name}, i}
-<li>{name}</li>
+{#each skills as skills, i}
+<li>{skills.name}</li>
 {/each}
 </ul>
 </div>
